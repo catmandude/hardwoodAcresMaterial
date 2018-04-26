@@ -1,7 +1,9 @@
 <template>
   <div>
     <md-toolbar md-elevation="0">
-      <h3 class="md-title">Transparent</h3>
+      <h3 class="md-title">
+        <img src="../../static/hardwoodAcresLogo.png" />
+      </h3>
     </md-toolbar>
   </div>
 </template>
