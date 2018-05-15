@@ -4,6 +4,13 @@
       <div class="md-layout-item md-layout md-gutter md-alignment-center-center">
         <div class="md-layout-item md-size-50">
           <span>Recent Projects!</span>
+          <agile :arrows="false" :speed="750"
+            :timing="'linear'" :fade="true"
+            :autoplay="true" :pauseOnHover="false">
+            <div class="slide slide--1"></div>
+            <div class="slide slide--2"></div>
+            <div class="slide slide--3"></div>
+          </agile>
         </div>
       </div>
     </div>
